@@ -34,4 +34,4 @@ jobs:
         arguments: build
     - name: ls
       run: |
-        ls build
+        find . | grep *.apk
