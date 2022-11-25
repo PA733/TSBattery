@@ -30,7 +30,7 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run: |
-        ./gradlew
+        ./gradlew tasks
     - name: find
       run: |
         find . | grep *.apk
