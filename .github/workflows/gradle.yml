@@ -33,4 +33,4 @@ jobs:
         ./gradlew build
     - name: find
       run: |
-        find . | grep *.apk
+        find . | grep apk
